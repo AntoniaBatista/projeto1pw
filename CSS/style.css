@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(90deg,rgb(231, 146, 220), rgb(229, 190, 226), rgb(188, 12, 194) );
+}
+
+header{
+    background-color: rgb(49, 26, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /*ajusta na horizontal*/
+    justify-content: center; /*alinha verticalmente*/
+    height: 500px; /*descola o elemento do topo da página*/
+
+}
+
+/* header img:hover{ */
+
+header img {
+    width: 200px;
+    border: 5px solid rgb(217, 182, 221);
+    border-radius: 110px ; /* arredonda a borda da imagem*/ 
+}
+
+header nav ul li {
+    color: rgb(240, 223, 236);
+    text-transform: uppercase;
+    display: inline;
+    padding: 20px;
+}
+
+header nav {
+    padding: 50px;
+}
+
+header nav ul a {
+    text-decoration: none;   /* remover a linha do link*/
+}
+
+/*hover monitora o mouse passando por cima do elemento, no caso do sobre, projetos, atividades e contatos*/
+
+
+header nav ul a li:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: 2s;
+}
+
