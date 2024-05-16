@@ -1,33 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
 body {
-    background-image: linear-gradient(90deg,rgb(231, 146, 220), rgb(229, 190, 226), rgb(188, 12, 194) );
+    background: linear-gradient(rgb(69, 23, 112), rgb(138, 58, 138), rgb(69, 23, 112));
 }
 
-header{
-    background-color: rgb(49, 26, 48);
+header {
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-    align-items: center;  /*ajusta na horizontal*/
-    justify-content: center; /*alinha verticalmente*/
-    height: 500px; /*descola o elemento do topo da página*/
+    align-items: center;  
+    justify-content: center; 
+    height: 500px; 
 
 }
 
-/* header img:hover{ */
-
-header img {
+.img1 {
     width: 200px;
-    border: 5px solid rgb(217, 182, 221);
-    border-radius: 110px ; /* arredonda a borda da imagem*/ 
+    border: 5px solid rgb(138, 58, 138);
+    border-radius: 110px ; 
+}
+
+.apresentacao {
+    display: flex;
+}
+
+.apresentacao img {
+    width: 500px;
+    margin: 0px 25px;
+    border-radius: 40px;
+    box-shadow: 10px 0px 20px black;
+}
+
+.apresentacao p {
+    padding: 0px 25px 15px 15px;
+    text-align: justify;
+    font-size: 20px;
 }
 
 header nav ul li {
-    color: rgb(240, 223, 236);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     display: inline;
     padding: 20px;
@@ -38,15 +53,57 @@ header nav {
 }
 
 header nav ul a {
-    text-decoration: none;   /* remover a linha do link*/
+    text-decoration: none;  
 }
 
-/*hover monitora o mouse passando por cima do elemento, no caso do sobre, projetos, atividades e contatos*/
-
-
-header nav ul a li:hover{
+header nav ul a li:hover {
     color: black;
     background-color: aliceblue;
-    transition: 2s;
+    transition: 1s;
 }
 
+.textoApresentacao {
+    padding: 0px 25px 15px 15px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+main h1 {
+    text-align: center;
+    padding: 25px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 3px 15px black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.card-header{
+    color:rgb(138, 58, 138) ;
+    background-color: black;
+    border: 1px solid #FFF
+}
+
+.card-body{
+    background-color: rgb(59, 59, 59);
+    border: 1px solid #FFF
+}
+
+.card {
+    float: left;
+    border: 0;
+    width: 180px;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 75px 200px 75px 200px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+
+.linkEtec{
+    color: blue;
+    text-decoration: underline;
+}
